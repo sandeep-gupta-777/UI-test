@@ -1,0 +1,12 @@
+#editButton:hover{
+  color: black!important;;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 30px;
+  color: white !important;
+}
+.navbar{
+  background-color: #4249a1 !important;
+}
