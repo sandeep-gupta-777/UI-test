@@ -7,7 +7,7 @@ declare var $ :any;
 @Component({
   selector: 'app-plan-config',
   templateUrl: './plan-config.component.html',
-  styleUrls: ['./plan-config.component.css']
+  styleUrls: ['./plan-config.component.scss']
 })
 export class PlanConfigComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {

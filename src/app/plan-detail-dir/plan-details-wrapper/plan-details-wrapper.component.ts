@@ -4,7 +4,7 @@ import {HelperService} from "../../helper.service";
 @Component({
   selector: 'app-plan-details-wrapper',
   templateUrl: './plan-details-wrapper.component.html',
-  styleUrls: ['./plan-details-wrapper.component.css']
+  styleUrls: ['./plan-details-wrapper.component.scss']
 })
 export class PlanDetailsWrapperComponent implements OnInit {
 

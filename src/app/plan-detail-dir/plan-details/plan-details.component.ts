@@ -4,7 +4,7 @@ import {PrettyprintPipe} from "../../prettyprint.pipe";
 @Component({
   selector: 'app-plan-details',
   templateUrl: './plan-details.component.html',
-  styleUrls: ['./plan-details.component.css'],
+  styleUrls: ['./plan-details.component.scss'],
 })
 export class PlanDetailsComponent implements OnInit {
 

@@ -4,7 +4,7 @@ import {ActivatedRoute, Router} from "@angular/router";
 @Component({
   selector: 'app-plan-cards',
   templateUrl: './plan-cards.component.html',
-  styleUrls: ['./plan-cards.component.css']
+  styleUrls: ['./plan-cards.component.scss']
 })
 export class PlanCardsComponent implements OnInit {
 

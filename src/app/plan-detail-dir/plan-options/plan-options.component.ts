@@ -4,7 +4,7 @@ import {HelperService} from "../../helper.service";
 @Component({
   selector: 'app-plan-options',
   templateUrl: './plan-options.component.html',
-  styleUrls: ['./plan-options.component.css']
+  styleUrls: ['./plan-options.component.scss']
 })
 export class PlanOptionsComponent implements OnInit {
 
