@@ -11,8 +11,8 @@ declare var $ :any;
 })
 export class PlanConfigComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
-    console.log($);
-      $('[data-toggle="tooltip"]').tooltip();
+    console.log("after view init");
+      // $('[data-toggle="tooltip"]').tooltip();
     // ((<any>document).querySelector('[data-toggle="tooltip"]')).tooltip();
 
   }
@@ -37,14 +37,14 @@ export class PlanConfigComponent implements OnInit, AfterViewInit {
   ngOnInit() {
   }
   copyToClipboard(str){
-    $('[data-toggle="tooltip"]').tooltip('hide')
-      .attr('data-original-title', "Link copied!")
-      .tooltip('show');
-    setTimeout(()=>{
-      $('[data-toggle="tooltip"]').tooltip('hide')
-        .attr('data-original-title', "Click to copy")
-        .tooltip('show');
-    },3000);
+    // $('[data-toggle="tooltip"]').tooltip('hide')
+    //   .attr('data-original-title', "Link copied!")
+    //   .tooltip('show');
+    // setTimeout(()=>{
+    //   $('[data-toggle="tooltip"]').tooltip('hide')
+    //     .attr('data-original-title', "Click to copy")
+    //     .tooltip('show');
+    // },3000);
     this.helper.copyToClipboard(str);
   }
 

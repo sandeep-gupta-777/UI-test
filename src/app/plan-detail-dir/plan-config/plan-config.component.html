@@ -1,12 +1,12 @@
 
 <div class="container">
   <div class="row plan-detail d-flex justify-content-center" >
+    <!--<h1 class="display-1" appTooltip>Hell111111o</h1>-->
 
     <div  class="plan-detail__links d-flex flex-row text-center">
-
       <div class="plan-detail__links--item display-1 mr-3 box shadow-theme shadow-click-theme"
            (click)="copyToClipboard(uploadUrl)"
-           data-toggle="tooltip" [title]="toolTipTitle"
+           data-toggle="tooltip" appTooltip
            (mouseenter)="firstBoxHover=true" (mouseleave)="firstBoxHover = !firstBoxHover">
 
         <h1 [ngClass]="{'right-hide':firstBoxHover}" *ngIf="!firstBoxHover">Url</h1>
@@ -19,6 +19,7 @@
 
       <div class="plan-detail__links--item display-1 mr-3 box shadow-theme shadow-click-theme"
            (click)="copyToClipboard(webHookUrl)"
+           data-toggle="tooltip" appTooltip
            (mouseenter)="secondBoxHover=true" (mouseleave)="secondBoxHover = !secondBoxHover">
 
         <h1 [ngClass]="{'right-hide':secondBoxHover}" *ngIf="!secondBoxHover">Hook</h1>

@@ -36,6 +36,7 @@ import { TableRowComponent } from './utility/table-row/table-row.component';
 import {AdventureTimeService} from "./advenduture-time.service";
 import { PlansComponent } from './plan-detail-dir/plans/plans.component';
 import { PlanOptionsComponent } from './plan-detail-dir/plan-options/plan-options.component';
+import { TooltipDirective } from './tooltip.directive';
 
 const routes: Route[] = [
   {path: 'login', component: LoginComponent},
@@ -87,6 +88,7 @@ const routes: Route[] = [
     TableRowComponent,
     PlansComponent,
     PlanOptionsComponent,
+    TooltipDirective,
   ],
   imports: [
     BrowserModule,
